@@ -166,7 +166,6 @@ axi4_memory_mapped_slave_verification/
 │   └── axi4_memory.sv
 │
 ├── tb/
-
 │   ├── axi4_interface.sv
 │   ├── axi4_transaction.sv
 │   ├── axi4_driver.sv
@@ -177,7 +176,6 @@ axi4_memory_mapped_slave_verification/
 │   └── axi4_testbench.sv
 │
 ├── memory_standalone_test/
-
 │   ├── rtl/
 │   │   └── axi4_memory.sv
 │   ├── tb/
@@ -306,30 +304,6 @@ chmod +x run\_sim.sh
 
 
 
-## 🔮 Future Improvements
-
-
-
-* Migrate to **UVM-based environment**
-
-* Add:
-
-
-
-* AXI4-Lite support
-
-* Out-of-order transactions
-
-* Backpressure stress testing
-
-* Integrate with CI (GitHub Actions)
-
-
-
----
-
-
-
 ## 👨‍💻 Author
 
 
@@ -339,6 +313,4 @@ chmod +x run\_sim.sh
 Digital IC Design \& Verification Enthusiast
 
 
-
---
 
