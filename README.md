@@ -161,7 +161,6 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 axi4_memory_mapped_slave_verification/
 
 ├── rtl/
-
 │   ├── axi4.sv
 │   └── axi4_memory.sv
 │
@@ -221,9 +220,9 @@ cd sim
 
 ```bash
 
-chmod +x run\_sim.sh
+chmod +x run_sim.sh
 
-./run\_sim.sh
+./run_sim.sh
 
 ```
 
