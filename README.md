@@ -158,60 +158,39 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 ```
 
-axi4\_memory\_mapped\_slave\_verification/
+axi4_memory_mapped_slave_verification/
 
 ├── rtl/
 
 │   ├── axi4.sv
-
-│   └── axi4\_memory.sv
-
+│   └── axi4_memory.sv
 │
-
 ├── tb/
 
-│   ├── axi4\_interface.sv
-
-│   ├── axi4\_transaction.sv
-
-│   ├── axi4\_driver.sv
-
-│   ├── axi4\_monitor.sv
-
-│   ├── axi4\_scoreboard.sv
-
-│   ├── axi4\_sequencer.sv
-
-│   ├── axi4\_assert.sv
-
-│   └── axi4\_testbench.sv
-
+│   ├── axi4_interface.sv
+│   ├── axi4_transaction.sv
+│   ├── axi4_driver.sv
+│   ├── axi4_monitor.sv
+│   ├── axi4_scoreboard.sv
+│   ├── axi4_sequencer.sv
+│   ├── axi4_assert.sv
+│   └── axi4_testbench.sv
 │
-
-├── memory\_standalone\_test/
+├── memory_standalone_test/
 
 │   ├── rtl/
-
-│   │   └── axi4\_memory.sv
-
+│   │   └── axi4_memory.sv
 │   ├── tb/
-
-│   │   ├── memory\_interface.sv
-
-│   │   ├── memory\_class.sv
-
-│   │   ├── mem\_test.sv
-
-│   │   └── mem\_assert.sv
-
+│   │   ├── memory_interface.sv
+│   │   ├── mem_transaction.sv
+│   │   ├── mem_test.sv
+│   │   └── mem_checker.sv
 │
-
 ├── sim/
-
-│   └── run\_sim.sh
-
+│   ├── sim_axi4.do
+│   ├── sim_mem.do
+│   └── run_sim.sh
 │
-
 └── README.md
 
 ```
