@@ -1,8 +1,8 @@
-# 🚀 AXI4 Memory-Mapped Slave Verification (SystemVerilog)
+# AXI4 Memory-Mapped Slave Verification (SystemVerilog)
 
 
 
-## 📌 Overview
+## Overview
 
 
 
@@ -18,7 +18,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-## 🎯 Objectives
+## Objectives
 
 
 
@@ -38,11 +38,11 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-## 🧠 Key Features
+## Key Features
 
 
 
-### ✅ AXI4 Protocol Support
+### AXI4 Protocol Support
 
 
 
@@ -58,7 +58,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-### ✅ Constrained Random Verification
+### Constrained Random Verification
 
 
 
@@ -80,7 +80,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-### ✅ Functional Coverage
+### Functional Coverage
 
 
 
@@ -100,7 +100,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-### ✅ Self-Checking Testbench
+### Self-Checking Testbench
 
 
 
@@ -118,7 +118,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-### ✅ SystemVerilog Assertions (SVA)
+### SystemVerilog Assertions (SVA)
 
 
 
@@ -136,7 +136,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-### ✅ Modular Testbench Architecture
+### Modular Testbench Architecture
 
 
 
@@ -152,7 +152,7 @@ The design under test (DUT) is an AXI4-compliant slave connected to an internal 
 
 
 
-## 📂 Project Structure
+## Project Structure
 
 
 
@@ -198,7 +198,7 @@ axi4_memory_mapped_slave_verification/
 
 
 
-## ⚙️ How to Run Simulation
+## How to Run Simulation
 
 
 
@@ -228,7 +228,7 @@ chmod +x run_sim.sh
 
 
 
-> 💡 You can modify the script to support your simulator (Questa, VCS, Xcelium)
+> You can modify the script to support your simulator (Questa, VCS, Xcelium)
 
 
 
@@ -236,7 +236,7 @@ chmod +x run_sim.sh
 
 
 
-## 📊 Verification Flow
+## Verification Flow
 
 
 
@@ -259,51 +259,7 @@ chmod +x run_sim.sh
 ---
 
 
-
-## 📈 Results
-
-
-
-* ✔️ High functional coverage achieved
-
-* ✔️ Robust handling of corner cases
-
-* ✔️ Automatic pass/fail reporting
-
-* ✔️ Protocol compliance verified using assertions
-
-
-
----
-
-
-
-## 💡 What This Project Demonstrates
-
-
-
-* Strong understanding of **AXI4 protocol**
-
-* Ability to build **verification environments from scratch**
-
-* Practical use of:
-
-
-
-* Constrained randomization
-
-* Functional coverage
-
-* Assertions (SVA)
-
-* Clean, modular, **industry-style testbench design**
-
-
----
-
-
-
-## 👨‍💻 Author
+## Author
 
 
 
